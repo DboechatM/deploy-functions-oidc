@@ -1,0 +1,10 @@
+- name: Run calculations once a day for 30 days history  (Oslo)
+  cron: ""
+  data:
+    sites:
+      - Oslo
+    lookback_minutes: 7200
+
+- name: Run the creation operation once a day for 30 days history
+  cron: "0 1 * * *"
+  data:
