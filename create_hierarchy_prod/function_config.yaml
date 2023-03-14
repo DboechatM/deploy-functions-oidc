@@ -1,5 +1,6 @@
 # Note: Parameters can be hardcoded directly in 'deploy-functions.yaml'
 # if you do not need to vary them between your functions!
+#
 description: "Function to create Assets Hierarchy "
 owner: Cognite-PRIO
 cpu: 1.0
